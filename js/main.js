@@ -4,6 +4,7 @@ var mymap = L.map('map', {
     zoom: 4,
     maxZoom: 10,
     minZoom: 3,
+    zoomcontrol: false,
     detectRetina: true });
 
 // 2. Add a base map.
@@ -143,3 +144,8 @@ legend.onAdd = function () {
 legend.addTo(mymap);
 // 12. Add a scale bar to map
 L.control.scale({position: 'bottomleft'}).addTo(mymap);
+
+
+//create zoomhome-control and add it to the map
+var zoomHome = L.Control.zoomHome({zoomHomeIcon:'home'});
+zoomHome.addTo(mymap);

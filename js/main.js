@@ -146,6 +146,3 @@ legend.addTo(mymap);
 L.control.scale({position: 'bottomleft'}).addTo(mymap);
 //Add mouse position to map
 L.control.mousePosition().addTo(mymap);
-//Add zoom home button
-var zoomHome = L.Control.zoomHome();
-zoomHome.addTo(mymap);

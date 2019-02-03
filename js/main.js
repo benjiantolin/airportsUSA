@@ -144,8 +144,3 @@ legend.onAdd = function () {
 legend.addTo(mymap);
 // 12. Add a scale bar to map
 L.control.scale({position: 'bottomleft'}).addTo(mymap);
-
-
-//create zoomhome-control and add it to the map
-var zoomHome = L.Control.zoomHome({zoomHomeIcon:'home'});
-zoomHome.addTo(mymap);

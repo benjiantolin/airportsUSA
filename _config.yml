@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+plugins:
+  - jemoji
+  - npm install leaflet-wikipedia
+  - bower install leaflet-wikipedia

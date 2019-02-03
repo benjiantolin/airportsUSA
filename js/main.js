@@ -117,7 +117,7 @@ states = L.geoJson.ajax("assets/us-states.geojson", {
 
 
 // 9. Create Leaflet Control Object for Legend
-var legend = L.control({position: 'topright'});
+var legend = L.control({position: 'bottomright'});
 
 // 10. Function that runs when legend is added to map
 legend.onAdd = function () {

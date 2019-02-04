@@ -21,7 +21,7 @@ Final version of the map can be found here: https://benjiantolin.github.io/airpo
 - Font awesome
 - Google fonts
 ### Data sources
-
+- **Base Map:** Is provided by [OpenStreetMap](http://www.openstreetmap.org/copyright).
 - **Airport data:** This data is converted from a shapefile, which was downloaded and unzipped from https://catalog.data.gov/dataset/usgs-small-scale-dataset-airports-of-the-united-states-201207-shapefile.
 - **State data:** This data is acquired from from [Mike Bostock](http://bost.ocks.org/mike) of [D3](http://d3js.org/).
 
